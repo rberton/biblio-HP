@@ -1,0 +1,103 @@
+.Library {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #984839;
+  padding: 1rem;
+}
+
+.Library p {
+  margin: 0 0 2rem;
+}
+
+.Library a {
+  align-self: center;
+  text-decoration: none;
+  margin: 1rem 0;
+  padding: 1rem;
+  background: white;
+  border: 0;
+  border-radius: .3rem;
+  color: #984839;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Library-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.Library-searchList {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.Library-item,
+.Library-selectItem,
+.Library-searchItem {
+  background: white;
+  padding: .5rem;
+  margin: 1rem;
+}
+
+.Library-item,
+.Library-searchItem {
+  cursor: pointer;
+}
+
+.Library-searchItem,
+.Library-selectItem,
+.Library-detail-complex {
+  display: flex;
+}
+
+.Library-searchItem strong,
+.Library-selectItem strong {
+  display: inline-block;
+  min-width: 5.5rem;
+  text-align: left;
+}
+
+.Library-detail-infos {
+  flex-direction: column;
+  margin: 1rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+.Library-detail-complex p,
+.Library-detail-infos > p,
+.Library-detail-infos > div {
+  margin-bottom: .5rem;
+}
+
+.Library-detail-synopsis {
+  text-align: left;
+  margin: 0 .25rem;
+}
+
+.Library-detail-actions {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.Library-detail-actions button {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: red;
+  border: 0;
+  border-radius: .3rem;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.Library-detail-actions button + button {
+  background: green;
+}

@@ -1,0 +1,77 @@
+.ShoppingCart {
+  background: #984839;
+  display: flex;
+  flex-direction: column;
+}
+
+.ShoppingCart p {
+  align-self: center;
+  padding: .5rem;
+  border-radius: .3rem;
+  margin: 3rem 0 2rem;
+  background: white;
+  font-size: 1.5rem;
+}
+
+.ShoppingCart-title {
+  font-size: 2rem;
+  padding: 2rem 0;
+  background: white;
+}
+
+.ShoppingCart-content {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  margin: 2rem 0;
+}
+.ShoppingCart-content li {
+  background: white;
+  padding: .5rem .5rem 1rem;
+  margin: 1rem;
+}
+.ShoppingCart-content button {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 1rem;
+  padding: 1rem;
+  background: red;
+  border: 0;
+  border-radius: .3rem;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.ShoppingCart-price {
+  font-size: 2rem;
+  background: white;
+  padding: 1rem;
+  display: inline-block;
+  margin: 2rem 0;
+  border-radius: .3rem;
+}
+.ShoppingCart-price del {
+  color: red;
+  margin: 0 .5rem;
+}
+.ShoppingCart-price ins {
+  color: green;
+}
+
+.ShoppingCart a {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 1rem;
+  padding: 1rem;
+  background: green;
+  border: 0;
+  border-radius: .3rem;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
